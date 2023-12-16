@@ -195,6 +195,6 @@ img {
   display: flex;
   gap: 24px;
 }
-.elements_list {
-  width: calc((100% - 72px) / 4);
+.list_style {
+  flex-basis: calc((100% - 72px) / 4);
 }
