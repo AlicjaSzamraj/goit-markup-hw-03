@@ -134,6 +134,7 @@ img {
 }
 .footer {
   background-color: var(--dark_grey1);
+  padding: 100px 0;
 }
 .studio_footer {
   color: var(--white2);
@@ -142,6 +143,7 @@ img {
   line-height: 1.5;
   color: var(--white2);
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 .buttons {
   font-family: "Roboto", sans-serif;
@@ -208,4 +210,16 @@ img {
 }
 .points_style {
   padding: 32px 0px;
+}
+.logo_footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--blue1);
+  margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
