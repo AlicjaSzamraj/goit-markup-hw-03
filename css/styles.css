@@ -30,6 +30,7 @@ body {
 .list {
   list-style: none;
   display: flex;
+  gap: 40px;
 }
 .points {
   font-weight: 500;
