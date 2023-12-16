@@ -137,3 +137,6 @@ body {
 img {
   display: block;
 }
+.main_header {
+  border-bottom: 1px solid #e7e9fc;
+}
