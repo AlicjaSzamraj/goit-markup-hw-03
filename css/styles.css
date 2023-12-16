@@ -67,6 +67,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--white1);
   max-width: 496px;
+  margin: auto;
 }
 .header_button {
   background-color: var(--blue1);
@@ -78,6 +79,7 @@ body {
   color: var(--white1);
   cursor: pointer;
   display: block;
+  margin: auto;
 }
 .header_button:hover {
   background-color: var(--blue2);
