@@ -57,6 +57,7 @@ body {
 }
 .section_one {
   background-color: var(--dark_grey1);
+  padding: 188px 0;
 }
 .header_section_one {
   font-size: 56px;
