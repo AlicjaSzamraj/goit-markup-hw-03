@@ -39,8 +39,6 @@ img {
 }
 .list {
   list-style: none;
-  margin: 0;
-  padding-left: 0;
 }
 .points {
   font-weight: 500;
@@ -188,7 +186,11 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.menu{
+.menu {
   display: flex;
   gap: 40px;
+}
+.section_two_list{
+  display: flex;
+  gap: 24px;
 }
