@@ -106,12 +106,14 @@ img {
   letter-spacing: 0.02em;
   color: var(--dark_grey1);
   margin-bottom: 8px;
+  text-align: center;
 }
 .paragraphs {
   color: var(--dark_grey2);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .header_section_three {
   font-size: 36px;
@@ -127,6 +129,8 @@ img {
 }
 .section_points {
   background-color: var(--white1);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .footer {
   background-color: var(--dark_grey1);
@@ -201,4 +205,7 @@ img {
 }
 .card {
   width: calc((100% - 48px) / 3);
+}
+.points_style {
+  padding: 32px 0px;
 }
