@@ -166,3 +166,9 @@ img {
   display: flex;
   align-items: center;
 }
+.section_two {
+  padding: 120px 0;
+}
+.visually-hidden {
+  display: none;
+}
