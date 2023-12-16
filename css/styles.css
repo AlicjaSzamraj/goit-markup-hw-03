@@ -191,10 +191,10 @@ img {
   display: flex;
   gap: 40px;
 }
-.section_two_list{
+.section_two_list {
   display: flex;
   gap: 24px;
 }
-.elements_list{
-  width: calc((100% - 72px) / 4;
+.elements_list {
+  width: calc((100% - 72px) / 4);
 }
