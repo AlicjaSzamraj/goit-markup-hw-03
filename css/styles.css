@@ -10,6 +10,7 @@ body {
   --blue2: #404bbf;
   --dark_grey2: #434455;
   --white2: #f4f4fd;
+  --white3: #e7e9fc;
 }
 button {
   cursor: pointer;
@@ -154,14 +155,19 @@ img {
   color: var(--blue1);
   background-color: var(--white2);
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid var(--white3);
+  border-radius: 4px;
 }
 .buttons:hover {
   color: var(--white1);
   background-color: var(--blue2);
+  border: 1px solid transparent;
 }
 .buttons:focus {
   color: var(--white1);
   background-color: var(--blue2);
+  border: 1px solid transparent;
 }
 .main_header {
   border-bottom: 1px solid #e7e9fc;
