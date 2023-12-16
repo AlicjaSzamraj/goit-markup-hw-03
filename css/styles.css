@@ -19,6 +19,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--blue1);
+  margin-right: 76px;
 }
 .link {
   text-decoration: none;
