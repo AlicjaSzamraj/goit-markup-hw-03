@@ -199,3 +199,6 @@ img {
 .list_style {
   width: calc((100% - 72px) / 4);
 }
+.card {
+  width: calc((100% - 48px) / 3);
+}
