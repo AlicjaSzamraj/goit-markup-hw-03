@@ -120,6 +120,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark_grey1);
+  margin-bottom: 72px;
 }
 .section_four {
   background-color: var(--white2);
@@ -191,7 +192,7 @@ img {
   display: flex;
   gap: 40px;
 }
-.section_two_list {
+.display_style {
   display: flex;
   gap: 24px;
 }
