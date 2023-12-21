@@ -280,6 +280,8 @@ img {
 }
 
 .p_list_style {
+}
+.style_pictures {
   padding: 32px 16px;
   border: 1px solid var(--white3);
   border-top: none;
