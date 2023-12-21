@@ -117,7 +117,7 @@ img {
   margin-bottom: 8px;
   text-align: center;
 }
-.title_of_headers{
+.title_of_headers {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -126,12 +126,19 @@ img {
   margin-bottom: 8px;
   text-align: left;
 }
-.paragraphs {
+.paragraphs_headers {
   color: var(--dark_grey2);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
+}
+.paragraphs_picture {
+  color: var(--dark_grey2);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 .header_section_three {
   font-size: 36px;
