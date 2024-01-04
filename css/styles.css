@@ -63,7 +63,7 @@ img {
 .address {
   font-style: normal;
 }
-.address_points {
+.address-points {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -71,11 +71,11 @@ img {
   padding: 24px 0;
   display: inline-block;
 }
-.section_one {
+.section-one {
   background-color: var(--dark_grey1);
   padding: 188px 0;
 }
-.header_section_one {
+.header-section-one {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -86,7 +86,7 @@ img {
   margin: auto;
   margin-bottom: 48px;
 }
-.header_button {
+.header-button {
   background-color: var(--blue1);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -102,13 +102,13 @@ img {
   border: none;
   border-radius: 4px;
 }
-.header_button:hover {
+.header-button:hover {
   background-color: var(--blue2);
 }
-.header_button:focus {
+.header-button:focus {
   background-color: var(--blue2);
 }
-.title_of_picture {
+.title-of-picture {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -117,7 +117,7 @@ img {
   margin-bottom: 8px;
   text-align: center;
 }
-.title_of_headers {
+.title-of-headers {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -126,21 +126,21 @@ img {
   margin-bottom: 8px;
   text-align: left;
 }
-.paragraphs_headers {
+.paragraphs-headers {
   color: var(--dark_grey2);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
 }
-.paragraphs_picture {
+.paragraphs-picture {
   color: var(--dark_grey2);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
 }
-.header_section_three {
+.header-section-three {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -150,10 +150,10 @@ img {
   margin-bottom: 72px;
 }
 
-.section_four {
+.section-four {
   background-color: var(--white2);
 }
-.section_points {
+.section-points {
   background-color: var(--white1);
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
@@ -165,10 +165,10 @@ img {
   background-color: var(--dark_grey1);
   padding: 100px 0;
 }
-.studio_footer {
+.studio-footer {
   color: var(--white2);
 }
-.paragraph_footer {
+.paragraph-footer {
   line-height: 1.5;
   color: var(--white2);
   letter-spacing: 0.02em;
@@ -197,10 +197,10 @@ img {
   background-color: var(--blue2);
   border: 1px solid transparent;
 }
-.main_header {
+.main-header {
   border-bottom: 1px solid #e7e9fc;
 }
-.top_elements {
+.top-elements {
   display: flex;
   justify-content: space-between;
 }
@@ -210,12 +210,15 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
-.nav_items {
+.nav-items {
   display: flex;
   align-items: center;
 }
 .section {
   padding: 120px 0;
+}
+.section-three {
+  padding-bottom: 120px;
 }
 .visually-hidden {
   position: absolute;
@@ -233,20 +236,20 @@ img {
   display: flex;
   gap: 40px;
 }
-.display_style {
+.display-style {
   display: flex;
   gap: 24px;
 }
-.list_style {
+.list-style {
   width: calc((100% - 72px) / 4);
 }
 .card {
   width: calc((100% - 48px) / 3);
 }
-.points_style {
+.points-style {
   padding: 32px 0px;
 }
-.logo_footer {
+.logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -258,35 +261,32 @@ img {
   display: inline-block;
   margin-bottom: 16px;
 }
-.section_portfolio {
+.section-portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-.list_buttons {
+.list-buttons {
   display: flex;
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
 }
-.portfolio_card_set {
+.portfolio-card-set {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
   list-style: none;
 }
-.portfolio_card {
+.portfolio-card {
   width: calc((100% - 48px) / 3);
 }
-
-.p_list_style {
-}
-.style_pictures {
+.style-pictures {
   padding: 32px 16px;
   border: 1px solid var(--white3);
   border-top: none;
 }
-.p_paragraphs {
+.p-paragraphs {
   color: var(--dark_grey2);
   font-family: Roboto;
   font-weight: 400;
@@ -294,7 +294,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.portfolio_pictures {
+.portfolio-pictures {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
