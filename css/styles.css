@@ -108,16 +108,7 @@ img {
 .header-button:focus {
   background-color: var(--blue2);
 }
-.title-of-picture {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--dark_grey1);
-  margin-bottom: 8px;
-  text-align: center;
-}
-.title-of-headers {
+.section-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -126,18 +117,14 @@ img {
   margin-bottom: 8px;
   text-align: left;
 }
-.paragraphs-headers {
+.paragraphs {
   color: var(--dark_grey2);
+  font-family: Roboto; sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
 }
-.paragraphs-picture {
-  color: var(--dark_grey2);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.centre {
   text-align: center;
 }
 .header-section-three {
@@ -286,19 +273,4 @@ img {
   border: 1px solid var(--white3);
   border-top: none;
 }
-.p-paragraphs {
-  color: var(--dark_grey2);
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.portfolio-pictures {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--dark_grey1);
-  margin-bottom: 8px;
-}
+
